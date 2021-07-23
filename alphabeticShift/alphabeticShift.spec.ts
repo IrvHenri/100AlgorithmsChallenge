@@ -1,6 +1,6 @@
 import { alphabeticShift } from './alphabeticShift';
 
-xdescribe(alphabeticShift.name, () => {
+describe(alphabeticShift.name, () => {
     it('Test 1', () => {
         // arrange
         const data = 'crazy';
