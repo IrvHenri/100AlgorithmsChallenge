@@ -1,6 +1,6 @@
 import { absoluteValuesSumMinimization } from './absoluteValuesSumMinization';
 
-describe(absoluteValuesSumMinimization.name, () => {
+xdescribe(absoluteValuesSumMinimization.name, () => {
     it('Test 1', () => {
         // arrange
         const data = [2, 4, 7];
