@@ -1,25 +1,25 @@
-import { alphabetSubsequence } from './alphabetSubsequence';
+import alphabetSubsequence from "./alphabetSubSequence";
 
-xdescribe(alphabetSubsequence.name, () => {
-    it('Test 1', () => {
-        // arrange
-        const data = 'effg';
+describe(alphabetSubsequence.name, () => {
+  it("Test 1", () => {
+    // arrange
+    const data = "effg";
 
-        // act
-        const response = alphabetSubsequence(data);
+    // act
+    const response = alphabetSubsequence(data);
 
-        // assert
-        expect(response).toBe(false);
-    });
+    // assert
+    expect(response).toBe(false);
+  });
 
-    it('Test 2', () => {
-        // arrange
-        const data = 'ace';
+  it("Test 2", () => {
+    // arrange
+    const data = "ace";
 
-        // act
-        const response = alphabetSubsequence(data);
+    // act
+    const response = alphabetSubsequence(data);
 
-        // assert
-        expect(response).toBe(true);
-    });
+    // assert
+    expect(response).toBe(true);
+  });
 });
