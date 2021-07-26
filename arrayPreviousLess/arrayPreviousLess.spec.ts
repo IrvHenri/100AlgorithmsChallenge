@@ -1,6 +1,6 @@
 import { arrayPreviousLess } from './arrayPreviousLess';
 
-xdescribe(arrayPreviousLess.name, () => {
+describe(arrayPreviousLess.name, () => {
     it('Test 1', () => {
         // arrange
         const data = [3, 5, 2, 4, 5];
