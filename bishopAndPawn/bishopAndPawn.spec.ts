@@ -1,6 +1,6 @@
 import { bishopAndPawn } from './bishopAndPawn';
 
-xdescribe(bishopAndPawn.name, () => {
+describe(bishopAndPawn.name, () => {
     it('Test 1', () => {
         // arrange
         const position1 = 'a1';
