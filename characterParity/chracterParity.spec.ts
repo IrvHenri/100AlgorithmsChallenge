@@ -1,36 +1,36 @@
-import { characterParity } from './characterParity';
+import { characterParity } from "./characterParity";
 
-xdescribe(characterParity.name, () => {
-    it('Test 1', () => {
-        // arrange
-        const data = '5';
+describe(characterParity.name, () => {
+  it("Test 1", () => {
+    // arrange
+    const data = "5";
 
-        // act
-        const response = characterParity(data);
+    // act
+    const response = characterParity(data);
 
-        // assert
-        expect(response).toBe('odd');
-    });
+    // assert
+    expect(response).toBe("odd");
+  });
 
-    it('Test 2', () => {
-        // arrange
-        const data = '8';
+  it("Test 2", () => {
+    // arrange
+    const data = "8";
 
-        // act
-        const response = characterParity(data);
+    // act
+    const response = characterParity(data);
 
-        // assert
-        expect(response).toBe('even');
-    });
+    // assert
+    expect(response).toBe("even");
+  });
 
-    it('Test 3', () => {
-        // arrange
-        const data = 'q';
+  it("Test 3", () => {
+    // arrange
+    const data = "q";
 
-        // act
-        const response = characterParity(data);
+    // act
+    const response = characterParity(data);
 
-        // assert
-        expect(response).toBe('not a digit');
-    });
+    // assert
+    expect(response).toBe("not a digit");
+  });
 });
