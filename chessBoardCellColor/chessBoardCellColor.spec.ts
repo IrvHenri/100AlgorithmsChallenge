@@ -1,6 +1,6 @@
 import { chessBoardCellColor } from './chessBoardCellColor';
 
-xdescribe(chessBoardCellColor.name, () => {
+describe(chessBoardCellColor.name, () => {
     it('Test 1', () => {
         // arrange
         const cell1 = 'A1';
