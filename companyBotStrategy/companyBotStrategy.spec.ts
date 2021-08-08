@@ -1,6 +1,6 @@
 import { companyBotStrategy } from './companyBotStrategy';
 
-xdescribe(companyBotStrategy.name, () => {
+describe(companyBotStrategy.name, () => {
     it('Test 1', () => {
         // arrange
         const data = [[3, 1], [6, 1], [4, 1], [5, 1]];
