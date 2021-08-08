@@ -1,6 +1,6 @@
 import { confirmEnding } from './confirmEnding';
 
-xdescribe(confirmEnding.name, () => {
+describe(confirmEnding.name, () => {
     it('Test 1', () => {
         // arrange
         const str1 = "Abstraction";
