@@ -1,6 +1,6 @@
 import { compareIntegers } from './compareIntegers';
 
-xdescribe(compareIntegers.name, () => {
+describe(compareIntegers.name, () => {
     it('Test 1', () => {
         // arrange
         const a = "12";
