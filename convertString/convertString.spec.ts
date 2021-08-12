@@ -1,27 +1,27 @@
-import { convertString } from './convertString';
+import { convertString } from "./convertString";
 
-xdescribe(convertString.name, () => {
-    it('Test 1', () => {
-        // arrange
-        const s = 'ceoydefthf5iyg5h5yts';
-        const t = 'codefights';
+describe(convertString.name, () => {
+  it("Test 1", () => {
+    // arrange
+    const s = "ceoydefthf5iyg5h5yts";
+    const t = "codefights";
 
-        // act
-        const response = convertString(s, t);
+    // act
+    const response = convertString(s, t);
 
-        // assert 
-        expect(response).toBe(true);
-    });
+    // assert
+    expect(response).toBe(true);
+  });
 
-    it('Test 2', () => {
-        // arrange
-        const s = 'addbyca';
-        const t = 'abcd';
+  it("Test 2", () => {
+    // arrange
+    const s = "addbyca";
+    const t = "abcd";
 
-        // act
-        const response = convertString(s, t);
+    // act
+    const response = convertString(s, t);
 
-        // assert 
-        expect(response).toBe(false);
-    });
+    // assert
+    expect(response).toBe(false);
+  });
 });
