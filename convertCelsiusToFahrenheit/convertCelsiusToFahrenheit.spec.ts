@@ -1,6 +1,6 @@
 import { celsiusToFahrenheit } from './convertCelsiusToFahrenheit';
 
-xdescribe(celsiusToFahrenheit.name, () => {
+describe(celsiusToFahrenheit.name, () => {
     it('Test 1', () => {
         // arrange
         const data = -30;
