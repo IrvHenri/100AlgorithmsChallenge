@@ -1,6 +1,6 @@
 import { differentSymbolsNaive } from './differentSymbolsNaive';
 
-xdescribe(differentSymbolsNaive.name, () => {
+describe(differentSymbolsNaive.name, () => {
     it('Test 1', () => {
         // arrange
         const s = 'cabca';
