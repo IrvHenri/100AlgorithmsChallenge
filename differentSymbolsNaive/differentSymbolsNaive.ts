@@ -1,11 +1,9 @@
 export function differentSymbolsNaive(s: string): number {
-  let uniqueChars = [];
+  let uniqueChars = {};
   for (let char of s) {
-    if (!uniqueChars.includes(char)) {
-      uniqueChars.push(char);
-    }
+    uniqueChars[char] = 1;
   }
-  return uniqueChars.length;
+  return Object.keys(uniqueChars).length;
 }
 
 console.log(differentSymbolsNaive("cabca"));
