@@ -1,6 +1,6 @@
 import { encloseInBrackets } from './encloseInBrackets';
 
-xdescribe(encloseInBrackets.name, () => {
+describe(encloseInBrackets.name, () => {
     it('Test 1', () => {
         // arrange
         const inputString = 'abacaba';
