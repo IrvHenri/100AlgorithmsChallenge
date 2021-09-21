@@ -1,25 +1,25 @@
-import { firstNotRepeatingCharacter } from './firstNotRepeatingCharacter';
+import { firstNotRepeatingCharacter } from "./firstNotRepeatingCharacter";
 
-xdescribe(firstNotRepeatingCharacter.name, () => {
-    it('Test 1', () => {
-        // arrange
-        const data = 'abacabad';
+describe(firstNotRepeatingCharacter.name, () => {
+  it("Test 1", () => {
+    // arrange
+    const data = "abacabad";
 
-        // act
-        const response = firstNotRepeatingCharacter(data);
+    // act
+    const response = firstNotRepeatingCharacter(data);
 
-        // assert 
-        expect(response).toBe('c');
-    });
+    // assert
+    expect(response).toBe("c");
+  });
 
-    it('Test 2', () => {
-        // arrange
-        const data = 'abacabaabacaba';
+  it("Test 2", () => {
+    // arrange
+    const data = "abacabaabacaba";
 
-        // act
-        const response = firstNotRepeatingCharacter(data);
+    // act
+    const response = firstNotRepeatingCharacter(data);
 
-        // assert 
-        expect(response).toBe('_');
-    });
+    // assert
+    expect(response).toBe("_");
+  });
 });
