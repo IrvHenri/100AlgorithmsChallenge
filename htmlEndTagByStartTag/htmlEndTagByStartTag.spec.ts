@@ -1,25 +1,25 @@
-import { htmlEndTagByStartTag } from './htmlEndTagByStartTag';
+import { htmlEndTagByStartTag } from "./htmlEndTagByStartTag";
 
-xdescribe(htmlEndTagByStartTag.name, () => {
-    it('Test 1', () => {
-        // arrange
-        const startTag = "<button type='button' disabled>";
+describe(htmlEndTagByStartTag.name, () => {
+  it("Test 1", () => {
+    // arrange
+    const startTag = "<button type='button' disabled>";
 
-        // act
-        const response = htmlEndTagByStartTag(startTag);
+    // act
+    const response = htmlEndTagByStartTag(startTag);
 
-        // assert 
-        expect(response).toBe("</button>");
-    });
+    // assert
+    expect(response).toBe("</button>");
+  });
 
-    it('Test 2', () => {
-        // arrange
-        const startTag = '<i>';
+  it("Test 2", () => {
+    // arrange
+    const startTag = "<i>";
 
-        // act
-        const response = htmlEndTagByStartTag(startTag);
+    // act
+    const response = htmlEndTagByStartTag(startTag);
 
-        // assert 
-        expect(response).toEqual('</i>');
-    });
+    // assert
+    expect(response).toEqual("</i>");
+  });
 });
