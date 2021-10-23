@@ -1,6 +1,6 @@
 import { houseOfCats } from './houseOfCats';
 
-xdescribe(houseOfCats.name, () => {
+describe(houseOfCats.name, () => {
     it('Test 1', () => {
         // arrange
         const legs = 6;
