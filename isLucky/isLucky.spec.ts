@@ -1,25 +1,25 @@
-import { isLucky } from './isLucky';
+import { isLucky } from "./isLucky";
 
-xdescribe(isLucky.name, () => {
-    it('Test 1', () => {
-        // arrange
-        const data = 1230;
+describe(isLucky.name, () => {
+  it("Test 1", () => {
+    // arrange
+    const data = 1230;
 
-        // act
-        const response = isLucky(data);
+    // act
+    const response = isLucky(data);
 
-        // assert 
-        expect(response).toBe(true);
-    });
+    // assert
+    expect(response).toBe(true);
+  });
 
-    it('Test 2', () => {
-        // arrange
-        const data = 239017;
+  it("Test 2", () => {
+    // arrange
+    const data = 239017;
 
-        // act
-        const response = isLucky(data);
+    // act
+    const response = isLucky(data);
 
-        // assert 
-        expect(response).toBe(false);
-    });
+    // assert
+    expect(response).toBe(false);
+  });
 });
