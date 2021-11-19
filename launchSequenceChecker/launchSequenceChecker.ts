@@ -18,13 +18,12 @@ export function launchSequenceChecker(
   let masterLaunchValues = Object.values(masterLaunch);
   for (let value of masterLaunchValues) {
     for (let i = 0; i < value.length; i++) {
-      console.log(value[i]);
       if (value[i] > value[i + 1]) {
         return false;
       }
-      return true;
     }
   }
+  return true;
 }
 
 console.log(
