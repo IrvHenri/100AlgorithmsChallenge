@@ -1,6 +1,6 @@
 import { minesweeper } from './minesweeper';
 
-xdescribe(minesweeper.name, () => {
+describe(minesweeper.name, () => {
     it('Test 1', () => {
         // arrange
         const matrix = [[true, false, false],
